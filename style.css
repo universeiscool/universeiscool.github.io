@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: "Helvetica Neue", Sans-Serif;
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 2rem;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+}
+
+p {
+	line-height: 150%;
+}
+
+.landing {
+	display: table;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+}
+
+.landing > div {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.landing h1 {
+	margin: 0 0 5px;
+}
+
+.landing h1 i {
+	font-weight: 100;
+	font-style: normal;
+}
+
+.landing ul {
+	position: fixed;
+	list-style: none;
+	bottom: 15px;
+	left: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.landing ul a {
+	color: #FFF;
+	font-size: 0.75rem;
+}
+
+.landing ul.right {
+	left: auto;
+	right: 15px;
+	text-align: right;
+}
+
+.imprint {
+	max-width: 800px;
+	padding: 0 20px;
+	margin: 50px auto;
+}
